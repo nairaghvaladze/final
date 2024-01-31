@@ -1,0 +1,55 @@
+*{
+    margin:0;
+    padding: 0;
+}
+html, body
+{  min-height: 100%;
+  margin: 0;
+  padding: 0;
+   
+   
+}
+
+
+.main {
+   padding-bottom: 150px;
+}
+.div1{
+    border-color: rgb(135, 73, 196);
+    border-width: 100px;
+    
+   
+    padding: 20px;
+    
+    
+}
+h1{
+    text-align: center;
+}
+
+.bt2{
+    position: absolute;
+   left: 45%;
+   background-color: blueviolet;
+   color: aliceblue;
+   border: none;
+   height: 35px;
+   border-radius: 10px;
+}
+.btn3{
+    position: absolute;
+   right:5%;
+   top:12%;
+   background-color: blueviolet;
+   color: aliceblue;
+   border: none;
+   height: 40px;
+   border-radius: 8px;
+}
+.tetx4 {
+    position: absolute;
+    right:5%;
+    top:13%;
+    color: blueviolet;
+  
+}
