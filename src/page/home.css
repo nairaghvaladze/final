@@ -1,0 +1,116 @@
+*{
+    box-sizing: border-box;
+
+}
+body {
+    margin: 0;
+    padding: 0;
+   
+ 
+    
+}
+img {width: 30px;
+    height: 30px;
+    margin: 0px 30px;
+
+ }
+
+
+    .overlay-container {
+        position: relative;
+      }
+  
+      .overlay {
+        position: absolute;
+        top:10%;
+        right: -30%; 
+        transform: translateX(70%); 
+        width: 100%; 
+        height: 120%;
+        background-color:blueviolet; 
+        color: #fff; 
+        font-size: 24px; 
+        border-radius: 10px;
+       
+        padding-right:15px;
+
+      }
+      
+      h4 {
+        position: absolute;
+        text-align: center;
+        left: 15%;
+        top:9%;
+      }
+      .text2 {
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100px;
+        top:35%;
+        text-align: center;
+      
+
+      }
+      .avto {
+        position: absolute;
+        top:70%;
+        left: 20%;
+        right: 30%;
+        background-color: white;
+        color: blueviolet;
+        border-radius: 10px;
+        border: none;
+      }
+      .overlay1 {
+        display: none;
+        position: absolute;
+        top:10%;
+        left: 0;
+        transform: translateX(0%); 
+        width: 100%; 
+        height: 120%;
+        background-color:blueviolet; 
+        color: #fff; 
+        font-size: 24px; 
+        border-radius: 10px;
+      }
+     
+      .reg {
+        position: absolute;
+        top:70%;
+        left: 20%;
+        right: 30%;
+        background-color: white;
+        color: blueviolet;
+        border-radius: 10px;
+        border: none;
+      }
+      @media  (max-width: 800px) {
+       .overlay{
+        position: absolute !important;
+        top: 110% !important;
+        right: -70%;
+        transform: translateX(-70%);
+        width: 100%;
+        height:105%;
+        background-color: blueviolet;
+        color: #fff;
+        font-size: 24px;
+        border-radius: 10px;
+        padding-right: 15px;
+        z-index: 1;
+    
+        }
+        .overlay1{
+          position: absolute !important;
+          top: 10% !important;
+          left: 70%;
+          transform: translateX(-70%);
+          width: 100%;
+          height:90%;
+         
+      
+          }
+      }
